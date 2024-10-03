@@ -30,6 +30,29 @@
     </div>
   </main>
 
+
+  <div class="offcanvas offcanvas-top" tabindex="-1" id="movieDetails" aria-labelledby="movieDetailsLabel">
+    <div class="offcanvas-header">
+      <h4 id="movieTitle"></h4>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      
+      <p id="movieOverview"></p>
+      <hr>
+      <p><span id="movieGenres"></span></p>
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownDetails" data-bs-toggle="dropdown" aria-expanded="false">
+        More
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownDetails">
+        <li><span class="dropdown-item" id="movieReleaseYear"></span></li>
+        <li><span class="dropdown-item" id="movieDuration"></span></li>
+        <li><span class="dropdown-item" id="movieBudget"></span></li>
+        <li><span class="dropdown-item" id="movieRevenue"></span></li>
+      </ul>
+    </div>
+  </div>
+
   <footer class="text-muted py-3">
     <div class="container">
       <p class="float-end mb-1">
@@ -42,7 +65,7 @@
   </footer>
 
   <script src="js/bootstrap.bundle.min.js"></script>
-
+  <script src="js/script.js"></script>
 </body>
 
 </html>
