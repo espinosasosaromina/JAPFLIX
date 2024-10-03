@@ -26,3 +26,36 @@ main {
 .offcanvas-top{
     height: fit-content;
 }
+/*estilo para btn more*/
+#dropdownDetails {
+    background-color: #0960eb; 
+    color: white; 
+    border: none;
+}
+
+#dropdownDetails:hover {
+    background-color: #001bb3; 
+}
+
+.dropdown-menu {
+    background-color: #6c757d; 
+    color: white; 
+}
+
+.dropdown-item {
+    color: white; 
+}
+
+.dropdown-item:hover {
+    background-color: #495057; 
+}
+
+.offcanvas {
+    background-color: #343a40; 
+    color: white; 
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Borde blanco sutil */
+}
+
